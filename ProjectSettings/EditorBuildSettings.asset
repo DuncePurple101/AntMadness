@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Victor/MainMenu/MenuScene.unity
+    guid: e74f61df00f40974195ae74c2018b86d
+  - enabled: 1
+    path: Assets/Victor/Credits/Credits.unity
+    guid: 147553a3f172bbd4cac63792f2442aca
   m_configObjects: {}
