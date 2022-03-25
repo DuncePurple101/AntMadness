@@ -7,6 +7,19 @@ public class CAplayermove : MonoBehaviour
 	private float speed = 10.0f;
     public GameObject charcter;
 
+	public int maxHealth = 100;
+	public int currentHealth;
+
+	public CAHealthBar healthBar;
+
+    void Start()
+    {
+		currentHealth = maxHealth;
+		healthBar.Setmaxhealth(maxHealth);
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+    }
 
     // Update is called once per frame
     void Update()
@@ -28,4 +41,11 @@ public class CAplayermove : MonoBehaviour
 			transform.position += Vector3.down * speed * Time.deltaTime;
 		}
 	}
+
+	void TakeDamage(int damage)
+    {
+		currentHealth -= damage;
+
+		healthBar.SetHealth(currentHealth);
+    }
 }
