@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Victor/MainMenu/MenuScene.unity
     guid: e74f61df00f40974195ae74c2018b86d
   - enabled: 1
-    path: Assets/Victor/Credits/Credits.unity
+    path: Assets/Victor/OptionsMenu/Credits/Credits.unity
     guid: 147553a3f172bbd4cac63792f2442aca
+  - enabled: 1
+    path: Assets/Victor/OptionsMenu/Options.unity
+    guid: cdea691c74ca2d1409be16e581901096
+  - enabled: 1
+    path: Assets/Victor/PauseMenu/PauseMenu.unity
+    guid: 38a588d773e343b47a48dbec720ff28b
   m_configObjects: {}
