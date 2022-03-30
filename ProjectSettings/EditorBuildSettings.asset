@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Victor/PauseMenu/PauseMenu.unity
     guid: 38a588d773e343b47a48dbec720ff28b
+  - enabled: 1
+    path: Assets/Casey/Casey.unity
+    guid: 807d646277166184d922ddaea2c5a57d
   m_configObjects: {}
