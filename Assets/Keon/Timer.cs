@@ -9,11 +9,7 @@ public class Timer : MonoBehaviour
     public float timeValue = 300;
     public Text timeText;
 
-    private void Start()
-    {
-        //Debug.Log("Testing Timer");
-    }
-    // Update is called once per frame
+
     void Update()
     {
         if(timeValue > 0)
@@ -25,7 +21,7 @@ public class Timer : MonoBehaviour
             timeValue = 0;
         }
         DisplayTime(timeValue);
-        //Debug.Log(timeValue);
+        
 
     }
 
