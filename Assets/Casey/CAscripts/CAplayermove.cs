@@ -17,9 +17,14 @@ public class CAplayermove : MonoBehaviour
 		currentHealth = maxHealth;
 		healthBar.Setmaxhealth(maxHealth);
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    
+    public void OnCollisionEnter2D(Collision2D collision)
     {
-    }
+		if (collision.gameObject.tag == "Enemy")
+		{
+			TakeDamage(10);
+		}
+	}
 
     // Update is called once per frame
     void Update()

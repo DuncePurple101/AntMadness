@@ -8,7 +8,7 @@ public class CAEnemyAI : MonoBehaviour
     public float speed;
     public float stoppingDistance;
     public float RetreatDistance;
-    
+
     public Transform player;
     public Transform egg;
 
@@ -19,10 +19,12 @@ public class CAEnemyAI : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
+    
 
     // Update is called once per frame
     void Update()
     {
+
         if (Vector2.Distance(transform.position, egg.position) > stoppingDistance)
         {
             transform.position = Vector2.MoveTowards(transform.position, egg.position, speed * Time.deltaTime);
@@ -36,7 +38,9 @@ public class CAEnemyAI : MonoBehaviour
         {
             transform.position = Vector2.MoveTowards(transform.position, egg.position, -speed * Time.deltaTime);
         }
-
+        
+        
     }
-
 }
+
+
