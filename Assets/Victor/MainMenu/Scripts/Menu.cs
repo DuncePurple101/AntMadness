@@ -7,8 +7,7 @@ public class Menu : MonoBehaviour
 {
     public void PlayGame()
     {
-        Debug.Log("Playing Game:/");
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Casey");
     }
     public void QuitGame()
     {

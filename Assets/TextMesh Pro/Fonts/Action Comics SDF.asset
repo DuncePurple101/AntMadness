@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: Action Comics SDF
   m_EditorClassIdentifier: 
-  hashCode: 0
+  hashCode: -726846217
   material: {fileID: 5184063853543644921}
-  materialHashCode: 0
+  materialHashCode: 1735786743
   m_Version: 1.1.0
   m_SourceFontFileGUID: bf4cfba602620794899a4d0b962cd15f
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: bf4cfba602620794899a4d0b962cd15f,
@@ -39,7 +39,7 @@ MonoBehaviour:
     m_SubscriptSize: 0.5
     m_UnderlineOffset: -5.703125
     m_UnderlineThickness: 2.9296875
-    m_StrikethroughOffset: 0
+    m_StrikethroughOffset: 19.2
     m_StrikethroughThickness: 2.9296875
     m_TabWidth: 16
   m_GlyphTable:
@@ -1336,9 +1336,9 @@ Material:
     - _OutlineWidth: 0
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
-    - _ScaleRatioA: 1
-    - _ScaleRatioB: 1
-    - _ScaleRatioC: 1
+    - _ScaleRatioA: 0.8333333
+    - _ScaleRatioB: 0.6770833
+    - _ScaleRatioC: 0.6770833
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0
