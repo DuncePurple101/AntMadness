@@ -4,19 +4,39 @@ using UnityEngine;
 
 public class CAEnemyAI : MonoBehaviour
 {
-    private const string V = "Player";
     public float speed;
     public float stoppingDistance;
     public float RetreatDistance;
 
+    public int minRange;
+
     public Transform player;
     public Transform egg;
+    private Transform target = null;
+
+    public int maxHealth = 100;
+    public int currentHealth;
+
+    public CAEnemyHealthBar CAEnemyHealthBar;
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "player") target = collision.transform;
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "player") target = null;
+    }
 
     // Start is called before the first frame update
     void Start()
     {
         egg = GameObject.FindGameObjectWithTag("Egg").transform;
         player = GameObject.FindGameObjectWithTag("Player").transform;
+
+        currentHealth = maxHealth;
+        CAEnemyHealthBar.Setmaxhealth(maxHealth);
     }
 
     
@@ -24,7 +44,6 @@ public class CAEnemyAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         if (Vector2.Distance(transform.position, egg.position) > stoppingDistance)
         {
             transform.position = Vector2.MoveTowards(transform.position, egg.position, speed * Time.deltaTime);
@@ -38,8 +57,13 @@ public class CAEnemyAI : MonoBehaviour
         {
             transform.position = Vector2.MoveTowards(transform.position, egg.position, -speed * Time.deltaTime);
         }
-        
-        
+
+        if (target == null) return;
+        transform.LookAt(target);
+        float distance = Vector3.Distance(transform.position, target.position);
+        bool tooClose = distance < minRange;
+        Vector3 direction = tooClose ? Vector3.back : Vector3.forward;
+        transform.Translate(direction * Time.deltaTime);
     }
 }
 
