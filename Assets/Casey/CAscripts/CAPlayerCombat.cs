@@ -8,6 +8,8 @@ public class CAPlayerCombat : MonoBehaviour
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
 
+    public int attackDamage = 20;
+
     // Update is called once per frame
     void Update()
     {
@@ -20,9 +22,9 @@ public class CAPlayerCombat : MonoBehaviour
     void Attack()
     {
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-        foreach(Collider2D Enemy in hitEnemies)
+        foreach(Collider2D enemy in hitEnemies)
         {
-            Debug.Log("You hit the enemy");
+            enemy.GetComponent<CAEnemyAI>().TakeDamge(attackDamage);
         }
     }
 
