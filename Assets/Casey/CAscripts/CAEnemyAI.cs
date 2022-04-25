@@ -39,6 +39,22 @@ public class CAEnemyAI : MonoBehaviour
         CAEnemyHealthBar.Setmaxhealth(maxHealth);
     }
 
+    public void TakeDamge(int damage)
+    {
+        currentHealth -= damage;
+        CAEnemyHealthBar.SetHealth(currentHealth);
+
+        if(currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        Destroy(this.gameObject);
+    }
+
     
 
     // Update is called once per frame
