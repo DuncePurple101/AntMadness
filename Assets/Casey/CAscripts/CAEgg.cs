@@ -28,7 +28,7 @@ public class CAEgg : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             TakeDamage(20);
-            //Debug.Log("Protect the egg");
+            //Debug.Log("Protect the egg!!");
         }
     }
     void TakeDamage(int damage)
