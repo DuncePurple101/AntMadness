@@ -29,8 +29,18 @@ public class CAEgg : MonoBehaviour
         {
             TakeDamage(20);
             //Debug.Log("Protect the egg!!");
+            if(currentHealth <= 0)
+            {
+                Die();
+            }
         }
     }
+
+    void Die()
+    {
+        Destroy(this.gameObject);
+    }
+
     void TakeDamage(int damage)
     {
         currentHealth -= damage;
