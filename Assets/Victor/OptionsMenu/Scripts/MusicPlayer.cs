@@ -8,6 +8,7 @@ public class MusicPlayer : MonoBehaviour
     public AudioSource AudioSource;
     public Slider volumeSlider;
 
+
     //Value frp, the slider, and it convert to volume level
     private float MusicVolume = .1f;
 
@@ -27,10 +28,14 @@ public class MusicPlayer : MonoBehaviour
         AudioSource.volume = MusicVolume;
         PlayerPrefs.SetFloat("volume", MusicVolume);
     }
+
+
     public void updateVolume(float volume)
     {
         MusicVolume = volume;
     }
+
+
     public void MusicReset()
     {
         PlayerPrefs.DeleteKey("volume");
