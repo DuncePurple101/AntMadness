@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Egg
   - Enemy
+  - GameMusic
   layers:
   - Default
   - TransparentFX

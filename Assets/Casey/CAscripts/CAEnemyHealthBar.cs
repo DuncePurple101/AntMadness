@@ -13,10 +13,12 @@ public class CAEnemyHealthBar : MonoBehaviour
     {
         slider.maxValue = health;
         slider.value = health;
+        //Debug.Log("MaxHealth set to " + health);
     }
 
     public void SetHealth(int health)
     {
         slider.value = health;
+        //Debug.Log("Health set to " + health);
     }
 }

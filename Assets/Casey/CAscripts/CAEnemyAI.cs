@@ -39,11 +39,28 @@ public class CAEnemyAI : MonoBehaviour
         CAEnemyHealthBar.Setmaxhealth(maxHealth);
     }
 
+    public void TakeDamge(int damage)
+    {
+        currentHealth -= damage;
+        CAEnemyHealthBar.SetHealth(currentHealth);
+
+        if(currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        Destroy(this.gameObject);
+    }
+
     
 
     // Update is called once per frame
     void Update()
     {
+        /*
         if (Vector2.Distance(transform.position, egg.position) > stoppingDistance)
         {
             transform.position = Vector2.MoveTowards(transform.position, egg.position, speed * Time.deltaTime);
@@ -58,12 +75,14 @@ public class CAEnemyAI : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position, egg.position, -speed * Time.deltaTime);
         }
 
+        /*
         if (target == null) return;
         transform.LookAt(target);
         float distance = Vector3.Distance(transform.position, target.position);
         bool tooClose = distance < minRange;
         Vector3 direction = tooClose ? Vector3.back : Vector3.forward;
         transform.Translate(direction * Time.deltaTime);
+        */
     }
 }
 
