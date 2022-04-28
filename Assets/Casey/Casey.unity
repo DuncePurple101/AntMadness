@@ -2264,7 +2264,6 @@ GameObject:
   - component: {fileID: 1006677555}
   - component: {fileID: 1006677556}
   - component: {fileID: 1006677559}
-  - component: {fileID: 1006677560}
   m_Layer: 8
   m_Name: CAEnemy
   m_TagString: Enemy
@@ -2405,25 +2404,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1006677560
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1006677554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2bb59fe93afdcab49ac6e5cbf79c0118, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  startWaitTime: 0
-  Objectives:
-  - {fileID: 2049336413}
-  - {fileID: 2059697350}
-  - {fileID: 1329657269}
-  - {fileID: 424876204}
 --- !u!1 &1015216948
 GameObject:
   m_ObjectHideFlags: 0
