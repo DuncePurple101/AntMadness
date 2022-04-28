@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CAplayer2move : MonoBehaviour
 {
@@ -33,6 +34,11 @@ public class CAplayer2move : MonoBehaviour
 		healthBar.SetHealth(currentHealth);
 	}
 
+	public void LoseScreen()
+    {
+		SceneManager.LoadScene("Lose");
+    }
+
 
 	// Update is called once per frame
 	void Update()
@@ -53,6 +59,10 @@ public class CAplayer2move : MonoBehaviour
 		{
 			transform.position += Vector3.down * speed * Time.deltaTime;
 		}
+		if (currentHealth <= 0)
+        {
+			LoseScreen();
+        }
 	}
 
 }
