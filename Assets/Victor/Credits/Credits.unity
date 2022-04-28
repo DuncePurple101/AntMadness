@@ -5797,7 +5797,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "PLAYER ART, ENEMY ART,\n\n TIMER"
+  m_text: "PLAYER ART, ENEMY ART,\n\n TIMER, END SCREENS"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2293bb0ad4ff4f040b71cb136014d34e, type: 2}
   m_sharedMaterial: {fileID: -105445764421978876, guid: 2293bb0ad4ff4f040b71cb136014d34e,
