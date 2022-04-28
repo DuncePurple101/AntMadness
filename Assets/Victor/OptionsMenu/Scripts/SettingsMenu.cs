@@ -16,17 +16,9 @@ public class SettingsMenu : MonoBehaviour
     {
         Screen.fullScreen = isFullScreen;
     }
-    //public void Mute(bool isMuted)
+    //public void SetQuality(int qualityIndex)
     //{
-    //    if (isMuted)
-    //    {
-    //        AudioListener.volume = 0f;
-    //    }
-    //    else
-    //    {
-    //        AudioListener.volume = 0.1f;
-    //    }
-    //    AudioListener.volume = 0f;
+    //    QualitySettings.SetQualityLevel(qualityIndex);
     //}
 }
 
