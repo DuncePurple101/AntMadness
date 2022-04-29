@@ -269,6 +269,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94c89e3e1ff779b4ab8d37832fa82006, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 33290415}
+  horizontalMove: 0
   charcter: {fileID: 33290408}
   maxHealth: 100
   currentHealth: 0
@@ -580,6 +582,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d49936205938b447b86d8c8e16fa7bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 72978883}
+  horizontalMove: 0
   charcter: {fileID: 72978882}
   maxHealth: 100
   currentHealth: 0
@@ -601,7 +605,7 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 256
-  attackDamage: 20
+  attackDamage: 10
 --- !u!1 &97959150
 GameObject:
   m_ObjectHideFlags: 0
@@ -2350,7 +2354,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.6, y: -240}
+  m_AnchoredPosition: {x: 6.6, y: -400}
   m_SizeDelta: {x: 200.73694, y: 54.44214}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &893124152
