@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CATimer : MonoBehaviour
 {
@@ -21,7 +22,10 @@ public class CATimer : MonoBehaviour
         }
         DisplayTime(timeValue);
 
-
+        if (timeValue <= 0)
+        {
+            YouLose();
+        }
     }
 
     void DisplayTime(float timeToDisplay)
@@ -37,4 +41,10 @@ public class CATimer : MonoBehaviour
 
         timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
+
+    void YouLose()
+    {
+        SceneManager.LoadScene("Lose");
+    }
+
 }
