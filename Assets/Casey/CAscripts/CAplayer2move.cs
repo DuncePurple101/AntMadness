@@ -26,7 +26,7 @@ public class CAplayer2move : MonoBehaviour
 	{
 		if (collision.gameObject.tag == "Enemy")
 		{
-			TakeDamage(10);
+			TakeDamage(5);
 		}
 	}
 

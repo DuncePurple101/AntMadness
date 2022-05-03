@@ -350,7 +350,7 @@ MonoBehaviour:
   minRange: 0
   player: {fileID: 0}
   egg: {fileID: 0}
-  maxHealth: 100
+  maxHealth: 50
   currentHealth: 0
   CAEnemyHealthBar: {fileID: 6656180677780555104}
 --- !u!61 &6656180676986882872
