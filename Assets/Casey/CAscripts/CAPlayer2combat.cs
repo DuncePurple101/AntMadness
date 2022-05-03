@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CAPlayerCombat : MonoBehaviour
+public class CAPlayer2combat : MonoBehaviour
 {
     public Transform attackPoint;
     public float attackRange = 0.5f;
@@ -13,7 +13,7 @@ public class CAPlayerCombat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             Attack();
         }
@@ -22,7 +22,7 @@ public class CAPlayerCombat : MonoBehaviour
     void Attack()
     {
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-        foreach(Collider2D enemy in hitEnemies)
+        foreach (Collider2D enemy in hitEnemies)
         {
             enemy.GetComponent<CAEnemyAI>().TakeDamge(attackDamage);
         }
