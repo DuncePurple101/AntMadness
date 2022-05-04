@@ -1019,7 +1019,7 @@ MonoBehaviour:
     MOVE
     LEFT: A
 
-    ATTACK: SPACEBAR'
+    ATTACK: E'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2293bb0ad4ff4f040b71cb136014d34e, type: 2}
   m_sharedMaterial: {fileID: -105445764421978876, guid: 2293bb0ad4ff4f040b71cb136014d34e,
@@ -1725,7 +1725,7 @@ MonoBehaviour:
 
     MOVE LEFT: LEFT ARROW
 
-    ATTACK: SPACEBAR'
+    ATTACK: LEFT MOUSE '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2293bb0ad4ff4f040b71cb136014d34e, type: 2}
   m_sharedMaterial: {fileID: -105445764421978876, guid: 2293bb0ad4ff4f040b71cb136014d34e,
