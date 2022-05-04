@@ -1,13 +1,31 @@
 fileFormatVersion: 2
-guid: 61e5e08e19507094eb6b5aa3c0515b6e
+guid: 29a8dc7c1386b624f8814b70c089f43a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5796548754900345659
-    second: Myrth_Attack_0
+      213: 1117902217240229871
+    second: Myrth_Walk_0
   - first:
-      213: -2059369687390429069
-    second: Myrth_Attack_1
+      213: 1314379775335731392
+    second: Myrth_Walk_1
+  - first:
+      213: -2126731313414009773
+    second: Myrth_Walk_2
+  - first:
+      213: -6242765984594106234
+    second: Myrth_Walk_3
+  - first:
+      213: 3442190675918504504
+    second: Myrth_Walk_4
+  - first:
+      213: -8503105828363670417
+    second: Myrth_Walk_5
+  - first:
+      213: -8446563274403410104
+    second: Myrth_Walk_6
+  - first:
+      213: -7868361546160558005
+    second: Myrth_Walk_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -129,13 +147,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Myrth_Attack_0
+      name: Myrth_Walk_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 538
-        height: 366
+        width: 575
+        height: 412
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b336113916a717050800000000000000
-      internalID: 5796548754900345659
+      spriteID: fe7b938c426938f00800000000000000
+      internalID: 1117902217240229871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Myrth_Attack_1
+      name: Myrth_Walk_1
       rect:
         serializedVersion: 2
-        x: 538
+        x: 575
         y: 0
-        width: 538
-        height: 366
+        width: 575
+        height: 412
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,8 +182,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 370e2e92e26ab63e0800000000000000
-      internalID: -2059369687390429069
+      spriteID: 0c018d8117d9d3210800000000000000
+      internalID: 1314379775335731392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Myrth_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 0
+        width: 575
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c024b63255c72e0800000000000000
+      internalID: -2126731313414009773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Myrth_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 0
+        width: 575
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6886060a96d3d59a0800000000000000
+      internalID: -6242765984594106234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Myrth_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 0
+        width: 575
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832c847ae2e15cf20800000000000000
+      internalID: 3442190675918504504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Myrth_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 2875
+        y: 0
+        width: 575
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c64dcec46eef980800000000000000
+      internalID: -8503105828363670417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Myrth_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 3450
+        y: 0
+        width: 575
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f03582477c7ca80800000000000000
+      internalID: -8446563274403410104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Myrth_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 4025
+        y: 0
+        width: 575
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40b1c4bcd6fdc290800000000000000
+      internalID: -7868361546160558005
       vertices: []
       indices: 
       edges: []

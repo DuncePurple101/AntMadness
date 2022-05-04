@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 61e5e08e19507094eb6b5aa3c0515b6e
+guid: bf332595353cae94c8e59d1b038edc07
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5796548754900345659
-    second: Myrth_Attack_0
+      213: -4246608446662966365
+    second: Ulfhild_Attack_0
   - first:
-      213: -2059369687390429069
-    second: Myrth_Attack_1
+      213: 7183204905967308604
+    second: Ulfhild_Attack_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -129,7 +129,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Myrth_Attack_0
+      name: Ulfhild_Attack_0
       rect:
         serializedVersion: 2
         x: 0
@@ -143,14 +143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b336113916a717050800000000000000
-      internalID: 5796548754900345659
+      spriteID: 3a30b740e140115c0800000000000000
+      internalID: -4246608446662966365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Myrth_Attack_1
+      name: Ulfhild_Attack_1
       rect:
         serializedVersion: 2
         x: 538
@@ -164,8 +164,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 370e2e92e26ab63e0800000000000000
-      internalID: -2059369687390429069
+      spriteID: c3f4601cdcedfa360800000000000000
+      internalID: 7183204905967308604
       vertices: []
       indices: 
       edges: []
