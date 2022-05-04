@@ -1,9 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CAplayer2move : MonoBehaviour
 {
+	public Animator animator;
+	public float horizontalMove;
+
 	private float speed = 10.0f;
 	public GameObject charcter;
 
@@ -22,7 +26,7 @@ public class CAplayer2move : MonoBehaviour
 	{
 		if (collision.gameObject.tag == "Enemy")
 		{
-			TakeDamage(10);
+			TakeDamage(5);
 		}
 	}
 
@@ -32,6 +36,11 @@ public class CAplayer2move : MonoBehaviour
 
 		healthBar.SetHealth(currentHealth);
 	}
+
+	public void LoseScreen()
+    {
+		SceneManager.LoadScene("Lose");
+    }
 
 
 	// Update is called once per frame
@@ -53,6 +62,15 @@ public class CAplayer2move : MonoBehaviour
 		{
 			transform.position += Vector3.down * speed * Time.deltaTime;
 		}
+
+		if (currentHealth <= 0)
+        {
+			LoseScreen();
+        }
+
+		horizontalMove = Input.GetAxisRaw("Horizontal") * speed;
+
+		animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
 	}
 
 }

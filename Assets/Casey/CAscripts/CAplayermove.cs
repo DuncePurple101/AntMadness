@@ -1,9 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CAplayermove : MonoBehaviour
 {
+	public Animator animator;
+	public float horizontalMove;
+	//bool facingRight = true;
+
 	private float speed = 10.0f;
     public GameObject charcter;
 
@@ -22,7 +27,7 @@ public class CAplayermove : MonoBehaviour
     {
 		if (collision.gameObject.tag == "Enemy")
 		{
-			TakeDamage(10);
+			TakeDamage(5);
 		}
 	}
 
@@ -45,6 +50,41 @@ public class CAplayermove : MonoBehaviour
 		{
 			transform.position += Vector3.down * speed * Time.deltaTime;
 		}
+
+		if (currentHealth <= 0)
+		{
+			LoseScreen();
+		}
+
+		horizontalMove = Input.GetAxisRaw("Horizontal") * speed;
+		
+		animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+
+	}
+ //   public void FixedUpdate()
+ //   {
+	//	if (speed > 0 && !facingRight)
+	//	{
+	//		Flip();
+	//	}
+	//	if (speed < 0 && !facingRight)
+	//	{
+	//		Flip();
+	//	}
+	//}
+
+  //  void Flip()
+  //  {
+		//Vector3 currentScale = gameObject.transform.localScale;
+		//currentScale.x *= 1;
+		//gameObject.transform.localScale = currentScale;
+
+		//facingRight = !facingRight;
+  //  }
+
+	public void LoseScreen()
+	{
+		SceneManager.LoadScene("Lose");
 	}
 
 	void TakeDamage(int damage)

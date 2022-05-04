@@ -50,6 +50,6 @@ public class PauseMenu : MonoBehaviour
 
     //if(PauseMenu.GameIsPaused)
     //{
-    //    s.source.pitch *= .5f;
+    //    s.source.pitch *= .05f;
     //}
 }
