@@ -1,13 +1,31 @@
 fileFormatVersion: 2
-guid: 61e5e08e19507094eb6b5aa3c0515b6e
+guid: 76e8478eedfb6634eb7e158f6d909335
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5796548754900345659
-    second: Myrth_Attack_0
+      213: -7820923689572814785
+    second: Fazas_Attack_0
   - first:
-      213: -2059369687390429069
-    second: Myrth_Attack_1
+      213: -5932848531758832871
+    second: Fazas_Attack_1
+  - first:
+      213: -8577681624474635518
+    second: Fazas_Attack_2
+  - first:
+      213: 6091293683462009107
+    second: Fazas_Attack_3
+  - first:
+      213: 6061569573413898083
+    second: Fazas_Attack_4
+  - first:
+      213: -2386109798730660205
+    second: Fazas_Attack_5
+  - first:
+      213: -266628993964659156
+    second: Fazas_Attack_6
+  - first:
+      213: 2155112483732359380
+    second: Fazas_Attack_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -129,13 +147,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Myrth_Attack_0
+      name: Fazas_Attack_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 538
-        height: 366
+        width: 612.5
+        height: 412
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b336113916a717050800000000000000
-      internalID: 5796548754900345659
+      spriteID: f303393675f767390800000000000000
+      internalID: -7820923689572814785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Myrth_Attack_1
+      name: Fazas_Attack_1
       rect:
         serializedVersion: 2
-        x: 538
+        x: 612
         y: 0
-        width: 538
-        height: 366
+        width: 612.5
+        height: 412
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,8 +182,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 370e2e92e26ab63e0800000000000000
-      internalID: -2059369687390429069
+      spriteID: 9132156a1b94aada0800000000000000
+      internalID: -5932848531758832871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fazas_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 0
+        width: 612.5
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2033bc05204f5f880800000000000000
+      internalID: -8577681624474635518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fazas_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 0
+        width: 612.5
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3117551055f988450800000000000000
+      internalID: 6091293683462009107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fazas_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 0
+        width: 612.5
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367c6a459650f1450800000000000000
+      internalID: 6061569573413898083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fazas_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 0
+        width: 612.5
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396849bb7c5d2eed0800000000000000
+      internalID: -2386109798730660205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fazas_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 0
+        width: 612.5
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2eaae7b75ebc4cf0800000000000000
+      internalID: -266628993964659156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fazas_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 0
+        width: 612.5
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d880ebb26f78ed10800000000000000
+      internalID: 2155112483732359380
       vertices: []
       indices: 
       edges: []

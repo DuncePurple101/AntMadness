@@ -1,13 +1,25 @@
 fileFormatVersion: 2
-guid: 61e5e08e19507094eb6b5aa3c0515b6e
+guid: e7e93507904319a4abac125f55705ab7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5796548754900345659
-    second: Myrth_Attack_0
+      213: 837961499830439287
+    second: Queen_Idle_0
   - first:
-      213: -2059369687390429069
-    second: Myrth_Attack_1
+      213: -8411841962469440110
+    second: Queen_Idle_1
+  - first:
+      213: -6885811289204904499
+    second: Queen_Idle_2
+  - first:
+      213: 2878296073635735744
+    second: Queen_Idle_3
+  - first:
+      213: 938857374534213360
+    second: Queen_Idle_4
+  - first:
+      213: -2299051960805130207
+    second: Queen_Idle_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -129,13 +141,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Myrth_Attack_0
+      name: Queen_Idle_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 538
-        height: 366
+        width: 633.3333
+        height: 600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b336113916a717050800000000000000
-      internalID: 5796548754900345659
+      spriteID: 77dc8dc5b8901ab00800000000000000
+      internalID: 837961499830439287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Myrth_Attack_1
+      name: Queen_Idle_1
       rect:
         serializedVersion: 2
-        x: 538
+        x: 633
         y: 0
-        width: 538
-        height: 366
+        width: 633.3333
+        height: 600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,8 +176,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 370e2e92e26ab63e0800000000000000
-      internalID: -2059369687390429069
+      spriteID: 295c8409d42234b80800000000000000
+      internalID: -8411841962469440110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Queen_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 0
+        width: 633.3333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd21947d1fa070a0800000000000000
+      internalID: -6885811289204904499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Queen_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 0
+        width: 633.3333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8a5737703c1f720800000000000000
+      internalID: 2878296073635735744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Queen_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 2532
+        y: 0
+        width: 633.3333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe1edfcecd770d00800000000000000
+      internalID: 938857374534213360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Queen_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 0
+        width: 633.3333
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1208b0c2c602810e0800000000000000
+      internalID: -2299051960805130207
       vertices: []
       indices: 
       edges: []

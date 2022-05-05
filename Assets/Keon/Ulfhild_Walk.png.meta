@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: 61e5e08e19507094eb6b5aa3c0515b6e
+guid: b8a6322cda2d169488db2ab6cf3179e1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5796548754900345659
-    second: Myrth_Attack_0
+      213: -4751191890262463533
+    second: Ulfhild_Walk_0
   - first:
-      213: -2059369687390429069
-    second: Myrth_Attack_1
+      213: -6459904379930482865
+    second: Ulfhild_Walk_1
+  - first:
+      213: -3738215065173784728
+    second: Ulfhild_Walk_2
+  - first:
+      213: 2967568002196608676
+    second: Ulfhild_Walk_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -129,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Myrth_Attack_0
+      name: Ulfhild_Walk_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 538
-        height: 366
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b336113916a717050800000000000000
-      internalID: 5796548754900345659
+      spriteID: 3db60311620601eb0800000000000000
+      internalID: -4751191890262463533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Myrth_Attack_1
+      name: Ulfhild_Walk_1
       rect:
         serializedVersion: 2
         x: 538
         y: 0
         width: 538
-        height: 366
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,8 +170,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 370e2e92e26ab63e0800000000000000
-      internalID: -2059369687390429069
+      spriteID: f47e047413fc956a0800000000000000
+      internalID: -6459904379930482865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulfhild_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 0
+        width: 538
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8678d4244313f1cc0800000000000000
+      internalID: -3738215065173784728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulfhild_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 0
+        width: 538
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a69eb9006bee2920800000000000000
+      internalID: 2967568002196608676
       vertices: []
       indices: 
       edges: []
