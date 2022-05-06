@@ -42,6 +42,14 @@ public class CAplayer2move : MonoBehaviour
 		SceneManager.LoadScene("Lose");
     }
 
+	public void OnTriggerEnter2D(Collider2D collision)
+	{
+		if (collision.gameObject.tag == ("Health"))
+		{
+			Health(20);
+		}
+	}
+
 
 	// Update is called once per frame
 	void Update()
@@ -71,6 +79,13 @@ public class CAplayer2move : MonoBehaviour
 		horizontalMove = Input.GetAxisRaw("Horizontal") * speed;
 
 		animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+	}
+
+	void Health(int health)
+	{
+		currentHealth += health;
+
+		healthBar.SetHealth(currentHealth);
 	}
 
 }
