@@ -30,4 +30,12 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("PauseMenu");
     }
+    public void LoseScreen()
+    {
+        SceneManager.LoadScene("Lose");
+    }
+    public void WinScreen()
+    {
+        SceneManager.LoadScene("Win");
+    }
 }
