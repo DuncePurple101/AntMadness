@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f3a3b36dcc3f4d845b3d7d07ef3c268c
+guid: bf332595353cae94c8e59d1b038edc07
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -8,15 +8,6 @@ TextureImporter:
   - first:
       213: 7183204905967308604
     second: Ulfhild_Attack_1
-  - first:
-      213: -4385832643084950047
-    second: Ulfhild_Attack_2
-  - first:
-      213: -7686887284891024716
-    second: Ulfhild_Attack_3
-  - first:
-      213: -3321433051024364665
-    second: Ulfhild_Attack_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -38,7 +29,6 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
-  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -70,12 +60,9 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
-  flipbookRows: 1
-  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -103,7 +90,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -126,6 +113,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -133,10 +132,10 @@ TextureImporter:
       name: Ulfhild_Attack_0
       rect:
         serializedVersion: 2
-        x: 82
-        y: 11
-        width: 393
-        height: 308
+        x: 0
+        y: 0
+        width: 538
+        height: 366
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,10 +153,10 @@ TextureImporter:
       name: Ulfhild_Attack_1
       rect:
         serializedVersion: 2
-        x: 463
-        y: 287
-        width: 5
-        height: 6
+        x: 538
+        y: 0
+        width: 538
+        height: 366
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,69 +166,6 @@ TextureImporter:
       bones: []
       spriteID: c3f4601cdcedfa360800000000000000
       internalID: 7183204905967308604
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ulfhild_Attack_2
-      rect:
-        serializedVersion: 2
-        x: 509
-        y: 11
-        width: 555
-        height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e5eb90c2746223c0800000000000000
-      internalID: -4385832643084950047
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ulfhild_Attack_3
-      rect:
-        serializedVersion: 2
-        x: 247
-        y: 11
-        width: 14
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4b28a93cdb0b25590800000000000000
-      internalID: -7686887284891024716
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ulfhild_Attack_4
-      rect:
-        serializedVersion: 2
-        x: 718
-        y: 11
-        width: 14
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78b6370ec36e7e1d0800000000000000
-      internalID: -3321433051024364665
       vertices: []
       indices: 
       edges: []

@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Victor/Win-Lose/Lose.unity
     guid: 848f82a8173cae64ea7e9ba1ec441407
+  - enabled: 1
+    path: Assets/Katarina/Katarina.unity
+    guid: 3c78800050be8dc489fc8f1184a1fe3d
   m_configObjects: {}
