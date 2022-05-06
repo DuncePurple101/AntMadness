@@ -1,100 +1,100 @@
 fileFormatVersion: 2
-guid: c585cf16c9dbe3d499fe359208010eb5
+guid: 80056ea5c64a614498144c8e40b79b13
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5927104337195463565
-    second: new_beedle_walk_cycle_png_0
+      213: 8913755509270739056
+    second: new_beedle_walk_cycle_png (1)_0
   - first:
-      213: -1271860407760078930
-    second: new_beedle_walk_cycle_png_1
+      213: -1670748348972239998
+    second: new_beedle_walk_cycle_png (1)_1
   - first:
-      213: 7672335266933885872
-    second: new_beedle_walk_cycle_png_2
+      213: -3308782168566060603
+    second: new_beedle_walk_cycle_png (1)_2
   - first:
-      213: 1286359359229723059
-    second: new_beedle_walk_cycle_png_3
+      213: 1657339129566406554
+    second: new_beedle_walk_cycle_png (1)_3
   - first:
-      213: 5158063347249051248
-    second: new_beedle_walk_cycle_png_4
+      213: -2162208221767127169
+    second: new_beedle_walk_cycle_png (1)_4
   - first:
-      213: -2287866592101986503
-    second: new_beedle_walk_cycle_png_5
+      213: 829945773528939467
+    second: new_beedle_walk_cycle_png (1)_5
   - first:
-      213: -7811423050430765835
-    second: new_beedle_walk_cycle_png_6
+      213: -5336297483817351134
+    second: new_beedle_walk_cycle_png (1)_6
   - first:
-      213: 6312844607592290895
-    second: new_beedle_walk_cycle_png_7
+      213: 5207026258413726052
+    second: new_beedle_walk_cycle_png (1)_7
   - first:
-      213: -3850887953150569573
-    second: new_beedle_walk_cycle_png_8
+      213: 1011269973979385962
+    second: new_beedle_walk_cycle_png (1)_8
   - first:
-      213: -1750414328737802911
-    second: new_beedle_walk_cycle_png_9
+      213: -7073186272680591857
+    second: new_beedle_walk_cycle_png (1)_9
   - first:
-      213: 3730248152745298962
-    second: new_beedle_walk_cycle_png_10
+      213: 3704371090126275402
+    second: new_beedle_walk_cycle_png (1)_10
   - first:
-      213: -2807370199972019501
-    second: new_beedle_walk_cycle_png_11
+      213: 4123197187557654576
+    second: new_beedle_walk_cycle_png (1)_11
   - first:
-      213: 1221248449160866500
-    second: new_beedle_walk_cycle_png_12
+      213: -6334022704055481732
+    second: new_beedle_walk_cycle_png (1)_12
   - first:
-      213: -7588610076917744077
-    second: new_beedle_walk_cycle_png_13
+      213: 3677503600125281805
+    second: new_beedle_walk_cycle_png (1)_13
   - first:
-      213: -2370298579499583570
-    second: new_beedle_walk_cycle_png_14
+      213: -4311788647911016836
+    second: new_beedle_walk_cycle_png (1)_14
   - first:
-      213: 4246705113360242335
-    second: new_beedle_walk_cycle_png_15
+      213: 7879056131910847638
+    second: new_beedle_walk_cycle_png (1)_15
   - first:
-      213: -7975004799850019740
-    second: new_beedle_walk_cycle_png_16
+      213: -2984731854183429429
+    second: new_beedle_walk_cycle_png (1)_16
   - first:
-      213: 8075306514119939220
-    second: new_beedle_walk_cycle_png_17
+      213: 6350185706412318468
+    second: new_beedle_walk_cycle_png (1)_17
   - first:
-      213: 7042715294060852021
-    second: new_beedle_walk_cycle_png_18
+      213: 4921032477905319538
+    second: new_beedle_walk_cycle_png (1)_18
   - first:
-      213: -6033272442037340157
-    second: new_beedle_walk_cycle_png_19
+      213: -577615419487437548
+    second: new_beedle_walk_cycle_png (1)_19
   - first:
-      213: 437533623710962635
-    second: new_beedle_walk_cycle_png_20
+      213: -6613703315586258499
+    second: new_beedle_walk_cycle_png (1)_20
   - first:
-      213: 8867687942618131578
-    second: new_beedle_walk_cycle_png_21
+      213: -843830382321142754
+    second: new_beedle_walk_cycle_png (1)_21
   - first:
-      213: 1167371445541152963
-    second: new_beedle_walk_cycle_png_22
+      213: -1226074176945874597
+    second: new_beedle_walk_cycle_png (1)_22
   - first:
-      213: 2272701259968923198
-    second: new_beedle_walk_cycle_png_23
+      213: 6220061921391262660
+    second: new_beedle_walk_cycle_png (1)_23
   - first:
-      213: -8661709473361512435
-    second: new_beedle_walk_cycle_png_24
+      213: 5264791112268792579
+    second: new_beedle_walk_cycle_png (1)_24
   - first:
-      213: 6326290906977244828
-    second: new_beedle_walk_cycle_png_25
+      213: 3829351654182119322
+    second: new_beedle_walk_cycle_png (1)_25
   - first:
-      213: -1951554565136316664
-    second: new_beedle_walk_cycle_png_26
+      213: -3533429092240287103
+    second: new_beedle_walk_cycle_png (1)_26
   - first:
-      213: -5347859081147129918
-    second: new_beedle_walk_cycle_png_27
+      213: -7023697311846011505
+    second: new_beedle_walk_cycle_png (1)_27
   - first:
-      213: -7796761189835886504
-    second: new_beedle_walk_cycle_png_28
+      213: 6714085328098395564
+    second: new_beedle_walk_cycle_png (1)_28
   - first:
-      213: -4335764493238830766
-    second: new_beedle_walk_cycle_png_29
+      213: -3686927509268371701
+    second: new_beedle_walk_cycle_png (1)_29
   - first:
-      213: 8293552715540993634
-    second: new_beedle_walk_cycle_png_30
+      213: -1667059657004073875
+    second: new_beedle_walk_cycle_png (1)_30
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -216,7 +216,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_0
+      name: new_beedle_walk_cycle_png (1)_0
       rect:
         serializedVersion: 2
         x: 541
@@ -230,14 +230,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d837635ddfd414250800000000000000
-      internalID: 5927104337195463565
+      spriteID: 07873c8986504bb70800000000000000
+      internalID: 8913755509270739056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_1
+      name: new_beedle_walk_cycle_png (1)_1
       rect:
         serializedVersion: 2
         x: 8979
@@ -251,14 +251,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea7b39f92b1795ee0800000000000000
-      internalID: -1271860407760078930
+      spriteID: 28370768a3f40d8e0800000000000000
+      internalID: -1670748348972239998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_2
+      name: new_beedle_walk_cycle_png (1)_2
       rect:
         serializedVersion: 2
         x: 2206
@@ -272,14 +272,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bbcb47864c997a60800000000000000
-      internalID: 7672335266933885872
+      spriteID: 5c9297bf528d412d0800000000000000
+      internalID: -3308782168566060603
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_3
+      name: new_beedle_walk_cycle_png (1)_3
       rect:
         serializedVersion: 2
         x: 3407
@@ -293,14 +293,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b1036495011ad110800000000000000
-      internalID: 1286359359229723059
+      spriteID: a97292a482d000710800000000000000
+      internalID: 1657339129566406554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_4
+      name: new_beedle_walk_cycle_png (1)_4
       rect:
         serializedVersion: 2
         x: 4603
@@ -314,14 +314,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 076fdb5294f159740800000000000000
-      internalID: 5158063347249051248
+      spriteID: f7f2423041b4ef1e0800000000000000
+      internalID: -2162208221767127169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_5
+      name: new_beedle_walk_cycle_png (1)_5
       rect:
         serializedVersion: 2
         x: 5802
@@ -335,14 +335,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93f0744c47ddf30e0800000000000000
-      internalID: -2287866592101986503
+      spriteID: bcb7706a84f848b00800000000000000
+      internalID: 829945773528939467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_6
+      name: new_beedle_walk_cycle_png (1)_6
       rect:
         serializedVersion: 2
         x: 7008
@@ -356,14 +356,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f4a6c05f10489390800000000000000
-      internalID: -7811423050430765835
+      spriteID: 228814d16b9a1f5b0800000000000000
+      internalID: -5336297483817351134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_7
+      name: new_beedle_walk_cycle_png (1)_7
       rect:
         serializedVersion: 2
         x: 8225
@@ -377,14 +377,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4a57c549babb9750800000000000000
-      internalID: 6312844607592290895
+      spriteID: 469a1e44bc2134840800000000000000
+      internalID: 5207026258413726052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_8
+      name: new_beedle_walk_cycle_png (1)_8
       rect:
         serializedVersion: 2
         x: 1006
@@ -398,14 +398,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9311aa3fc5ee8ac0800000000000000
-      internalID: -3850887953150569573
+      spriteID: a605f03fea0c80e00800000000000000
+      internalID: 1011269973979385962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_9
+      name: new_beedle_walk_cycle_png (1)_9
       rect:
         serializedVersion: 2
         x: 9446
@@ -419,14 +419,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16554dd217745b7e0800000000000000
-      internalID: -1750414328737802911
+      spriteID: f0e34b27f8ef6dd90800000000000000
+      internalID: -7073186272680591857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_10
+      name: new_beedle_walk_cycle_png (1)_10
       rect:
         serializedVersion: 2
         x: 45
@@ -440,14 +440,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21cc0746ee084c330800000000000000
-      internalID: 3730248152745298962
+      spriteID: a43043f31e1986330800000000000000
+      internalID: 3704371090126275402
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_11
+      name: new_beedle_walk_cycle_png (1)_11
       rect:
         serializedVersion: 2
         x: 1132
@@ -461,14 +461,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d286ad5da73a09d0800000000000000
-      internalID: -2807370199972019501
+      spriteID: 03083471ff9883930800000000000000
+      internalID: 4123197187557654576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_12
+      name: new_beedle_walk_cycle_png (1)_12
       rect:
         serializedVersion: 2
         x: 1245
@@ -482,14 +482,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4caeaba7efeb2f010800000000000000
-      internalID: 1221248449160866500
+      spriteID: c7a8385e8e70918a0800000000000000
+      internalID: -6334022704055481732
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_13
+      name: new_beedle_walk_cycle_png (1)_13
       rect:
         serializedVersion: 2
         x: 2357
@@ -503,14 +503,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33e3e5a5757dfa690800000000000000
-      internalID: -7588610076917744077
+      spriteID: d0600b14a0e190330800000000000000
+      internalID: 3677503600125281805
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_14
+      name: new_beedle_walk_cycle_png (1)_14
       rect:
         serializedVersion: 2
         x: 2463
@@ -524,14 +524,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea7705510020b1fd0800000000000000
-      internalID: -2370298579499583570
+      spriteID: c76b3bec1137924c0800000000000000
+      internalID: -4311788647911016836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_15
+      name: new_beedle_walk_cycle_png (1)_15
       rect:
         serializedVersion: 2
         x: 3532
@@ -545,14 +545,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f961ca3fcc35fea30800000000000000
-      internalID: 4246705113360242335
+      spriteID: 69cc8e39ec7085d60800000000000000
+      internalID: 7879056131910847638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_16
+      name: new_beedle_walk_cycle_png (1)_16
       rect:
         serializedVersion: 2
         x: 3645
@@ -566,14 +566,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46487ee4367135190800000000000000
-      internalID: -7975004799850019740
+      spriteID: bca8a91413a1496d0800000000000000
+      internalID: -2984731854183429429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_17
+      name: new_beedle_walk_cycle_png (1)_17
       rect:
         serializedVersion: 2
         x: 4733
@@ -587,14 +587,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49454826d70411070800000000000000
-      internalID: 8075306514119939220
+      spriteID: 40f18785144602850800000000000000
+      internalID: 6350185706412318468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_18
+      name: new_beedle_walk_cycle_png (1)_18
       rect:
         serializedVersion: 2
         x: 4845
@@ -608,14 +608,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53335bcfe30ccb160800000000000000
-      internalID: 7042715294060852021
+      spriteID: 276f4b547f40b4440800000000000000
+      internalID: 4921032477905319538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_19
+      name: new_beedle_walk_cycle_png (1)_19
       rect:
         serializedVersion: 2
         x: 5957
@@ -629,14 +629,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 308f53bfda2854ca0800000000000000
-      internalID: -6033272442037340157
+      spriteID: 41db9a816d5ebf7f0800000000000000
+      internalID: -577615419487437548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_20
+      name: new_beedle_walk_cycle_png (1)_20
       rect:
         serializedVersion: 2
         x: 6063
@@ -650,14 +650,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc3d49a338e621600800000000000000
-      internalID: 437533623710962635
+      spriteID: db968a810e76734a0800000000000000
+      internalID: -6613703315586258499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_21
+      name: new_beedle_walk_cycle_png (1)_21
       rect:
         serializedVersion: 2
         x: 7151
@@ -671,14 +671,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7ca4c6633b501b70800000000000000
-      internalID: 8867687942618131578
+      spriteID: e14f013fcbc1a44f0800000000000000
+      internalID: -843830382321142754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_22
+      name: new_beedle_walk_cycle_png (1)_22
       rect:
         serializedVersion: 2
         x: 7263
@@ -692,14 +692,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c82a6c0526533010800000000000000
-      internalID: 1167371445541152963
+      spriteID: b599cd6380c1cfee0800000000000000
+      internalID: -1226074176945874597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_23
+      name: new_beedle_walk_cycle_png (1)_23
       rect:
         serializedVersion: 2
         x: 8482
@@ -713,14 +713,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e36c70131c14a8f10800000000000000
-      internalID: 2272701259968923198
+      spriteID: 4cbb579bc59125650800000000000000
+      internalID: 6220061921391262660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_24
+      name: new_beedle_walk_cycle_png (1)_24
       rect:
         serializedVersion: 2
         x: 1794
@@ -734,14 +734,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d08b6ac202d6bc780800000000000000
-      internalID: -8661709473361512435
+      spriteID: 3034a6f5f9b401940800000000000000
+      internalID: 5264791112268792579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_25
+      name: new_beedle_walk_cycle_png (1)_25
       rect:
         serializedVersion: 2
         x: 5391
@@ -755,14 +755,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c969920df008bc750800000000000000
-      internalID: 6326290906977244828
+      spriteID: a97649b6a07942530800000000000000
+      internalID: 3829351654182119322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_26
+      name: new_beedle_walk_cycle_png (1)_26
       rect:
         serializedVersion: 2
         x: 6605
@@ -776,14 +776,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8070249767faae4e0800000000000000
-      internalID: -1951554565136316664
+      spriteID: 18a9cf526fcb6fec0800000000000000
+      internalID: -3533429092240287103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_27
+      name: new_beedle_walk_cycle_png (1)_27
       rect:
         serializedVersion: 2
         x: 8370
@@ -797,14 +797,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cfd067ff7698c5b0800000000000000
-      internalID: -5347859081147129918
+      spriteID: f8d6d8d0280d68e90800000000000000
+      internalID: -7023697311846011505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_28
+      name: new_beedle_walk_cycle_png (1)_28
       rect:
         serializedVersion: 2
         x: 3005
@@ -818,14 +818,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 850b741c1075cc390800000000000000
-      internalID: -7796761189835886504
+      spriteID: ca587fc78093d2d50800000000000000
+      internalID: 6714085328098395564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_29
+      name: new_beedle_walk_cycle_png (1)_29
       rect:
         serializedVersion: 2
         x: 4191
@@ -839,14 +839,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2597fbe4a2544d3c0800000000000000
-      internalID: -4335764493238830766
+      spriteID: b076179e6f665dcc0800000000000000
+      internalID: -3686927509268371701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new_beedle_walk_cycle_png_30
+      name: new_beedle_walk_cycle_png (1)_30
       rect:
         serializedVersion: 2
         x: 7814
@@ -860,8 +860,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2661ccfe04e981370800000000000000
-      internalID: 8293552715540993634
+      spriteID: d6c33ec031a6dd8e0800000000000000
+      internalID: -1667059657004073875
       vertices: []
       indices: 
       edges: []
