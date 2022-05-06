@@ -4,20 +4,12 @@ using UnityEngine;
 
 public class CAHealingMushroom : MonoBehaviour
 {
-    public CAHealthBar healthBar;
-    public CAHealthBar2 healthBar2;
-
-    // Start is called before the first frame update
-    void Start()
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (gameObject.tag == ("Health"))
+        if (collision.gameObject.tag == ("Player"))
         {
-            
+            Destroy(this.gameObject);
         }
     }
+
 }

@@ -31,6 +31,14 @@ public class CAplayermove : MonoBehaviour
 		}
 	}
 
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == ("Health"))
+        {
+			Health(20);
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -93,4 +101,10 @@ public class CAplayermove : MonoBehaviour
 
 		healthBar.SetHealth(currentHealth);
     }
+	void Health(int health)
+	{
+		currentHealth += health;
+
+		healthBar.SetHealth(currentHealth);
+	}
 }
