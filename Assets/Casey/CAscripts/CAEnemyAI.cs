@@ -7,6 +7,7 @@ public class CAEnemyAI : MonoBehaviour
     public float speed;
     public float stoppingDistance;
     public float RetreatDistance;
+    public Animator animator;
 
     public int minRange;
 
