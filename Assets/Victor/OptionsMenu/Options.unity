@@ -1019,7 +1019,7 @@ MonoBehaviour:
     MOVE
     LEFT: A
 
-    ATTACK: E'
+    ATTACK: SPACEBAR'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2293bb0ad4ff4f040b71cb136014d34e, type: 2}
   m_sharedMaterial: {fileID: -105445764421978876, guid: 2293bb0ad4ff4f040b71cb136014d34e,
@@ -2125,6 +2125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AudioSource: {fileID: 1188350684}
   volumeSlider: {fileID: 764472404}
+  MusicVolume: 0.1
 --- !u!1 &1716910620
 GameObject:
   m_ObjectHideFlags: 0
