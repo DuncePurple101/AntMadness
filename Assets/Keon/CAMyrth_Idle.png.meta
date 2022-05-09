@@ -14,6 +14,12 @@ TextureImporter:
   - first:
       213: -629055721586970920
     second: Myrth_Idle_3
+  - first:
+      213: -7824863591557320913
+    second: CAMyrth_Idle_0
+  - first:
+      213: -1083553709386301069
+    second: CAMyrth_Idle_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -135,13 +141,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Myrth_Idle_0
+      name: CAMyrth_Idle_0
       rect:
         serializedVersion: 2
-        x: 28
+        x: 0
         y: 0
-        width: 487
-        height: 340
+        width: 538
+        height: 366
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee2fb404889347150800000000000000
-      internalID: 5869379471727653614
+      spriteID: f2fa6597500886390800000000000000
+      internalID: -7824863591557320913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Myrth_Idle_1
+      name: CAMyrth_Idle_1
       rect:
         serializedVersion: 2
-        x: 586
+        x: 538
         y: 0
-        width: 431
-        height: 326
+        width: 538
+        height: 366
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,50 +176,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2563dbf84f293ee0800000000000000
-      internalID: -1280940628501109459
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Myrth_Idle_2
-      rect:
-        serializedVersion: 2
-        x: 1015
-        y: 211
-        width: 11
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 595d44bfa7110b8c0800000000000000
-      internalID: -3985666450323614315
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Myrth_Idle_3
-      rect:
-        serializedVersion: 2
-        x: 1027
-        y: 139
-        width: 20
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8dea1e277252547f0800000000000000
-      internalID: -629055721586970920
+      spriteID: 37109f864a176f0f0800000000000000
+      internalID: -1083553709386301069
       vertices: []
       indices: 
       edges: []

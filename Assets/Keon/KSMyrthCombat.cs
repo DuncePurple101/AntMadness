@@ -2,10 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CAPlayerCombat : MonoBehaviour
+public class KSMyrthCombat : MonoBehaviour
 {
-    public Animator animator;
-
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
@@ -21,12 +19,13 @@ public class CAPlayerCombat : MonoBehaviour
         }
     }
 
+    public Animator animator;
+
     void Attack()
     {
         animator.SetTrigger("Attack");
-
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-        foreach(Collider2D enemy in hitEnemies)
+        foreach (Collider2D enemy in hitEnemies)
         {
             enemy.GetComponent<CAEnemyAI>().TakeDamge(attackDamage);
         }
