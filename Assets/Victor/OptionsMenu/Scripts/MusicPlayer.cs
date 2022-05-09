@@ -10,11 +10,12 @@ public class MusicPlayer : MonoBehaviour
 
 
     //Value frp, the slider, and it convert to volume level
-    private float MusicVolume = .1f;
+    public float MusicVolume = .1f;
 
 
     private void Start()
     {
+        MusicVolume = .3f;
         AudioSource.Play();
         MusicVolume = PlayerPrefs.GetFloat("volume");
         AudioSource.volume = MusicVolume;
