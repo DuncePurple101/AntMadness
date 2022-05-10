@@ -16,7 +16,6 @@ public class CAplayermove : MonoBehaviour
 	public int currentHealth;
 
 	public CAHealthBar healthBar;
-	public int enemiesKilled;
 
     void Start()
     {
