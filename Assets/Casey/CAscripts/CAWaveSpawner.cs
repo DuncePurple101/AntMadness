@@ -34,10 +34,10 @@ public class CAWaveSpawner : MonoBehaviour
             canSpawn = true;
 
         }
-        if (currentWaveNumber == 4)
-        {
-            SceneManager.LoadScene("Win");
-        }
+        //if (currentWaveNumber == 4)
+        //{
+        //    SceneManager.LoadScene("Win");
+        //}
     }
 
     void SpawnWave()
