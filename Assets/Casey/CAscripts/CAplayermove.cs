@@ -12,10 +12,11 @@ public class CAplayermove : MonoBehaviour
 	private float speed = 10.0f;
     public GameObject charcter;
 
-	public int maxHealth = 100;
+	public int maxHealth = 200;
 	public int currentHealth;
 
 	public CAHealthBar healthBar;
+	public int enemiesKilled;
 
     void Start()
     {
