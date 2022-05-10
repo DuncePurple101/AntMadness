@@ -18,7 +18,6 @@ public class CAEnemyAI : MonoBehaviour
 
     public int maxHealth = 100;
     public int currentHealth;
-    int enemiesKilled;
 
     public CAEnemyHealthBar CAEnemyHealthBar;
 
@@ -61,11 +60,6 @@ public class CAEnemyAI : MonoBehaviour
     void Die()
     {
         Destroy(this.gameObject);
-        enemiesKilled++;
-        if (enemiesKilled == 9)
-        {
-            SceneManager.LoadScene("Win");
-        }
     }
 
     
