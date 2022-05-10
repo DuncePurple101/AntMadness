@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class CATimer : MonoBehaviour
 {
-    public float timeValue = 180;
+    public float timeValue = 300;
     public Text timeText;
 
     // Update is called once per frame
@@ -44,7 +44,7 @@ public class CATimer : MonoBehaviour
 
     void YouLose()
     {
-        SceneManager.LoadScene("Win");
+        SceneManager.LoadScene("Lose");
     }
 
 }

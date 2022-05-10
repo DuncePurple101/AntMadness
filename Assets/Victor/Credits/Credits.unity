@@ -910,7 +910,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &271208762
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1731,6 +1731,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AudioSource: {fileID: 667038814}
   volumeSlider: {fileID: 0}
+  MusicVolume: 0.1
 --- !u!1 &570607874
 GameObject:
   m_ObjectHideFlags: 0
@@ -2553,7 +2554,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &869591996
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5947,7 +5948,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "PLAYER ART, ENEMY ART,\n\n TIMER, END SCREENS"
+  m_text: "PLAYER ART, ,\n\n TIMER, END SCREENS"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2293bb0ad4ff4f040b71cb136014d34e, type: 2}
   m_sharedMaterial: {fileID: -105445764421978876, guid: 2293bb0ad4ff4f040b71cb136014d34e,

@@ -18,6 +18,7 @@ public class CAEnemyAI : MonoBehaviour
 
     public int maxHealth = 100;
     public int currentHealth;
+    int enemiesKilled;
 
     public CAEnemyHealthBar CAEnemyHealthBar;
 
@@ -60,6 +61,11 @@ public class CAEnemyAI : MonoBehaviour
     void Die()
     {
         Destroy(this.gameObject);
+        enemiesKilled++;
+        if (enemiesKilled == 9)
+        {
+            SceneManager.LoadScene("Win");
+        }
     }
 
     
@@ -67,7 +73,7 @@ public class CAEnemyAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*
+        
         if (Vector2.Distance(transform.position, egg.position) > stoppingDistance)
         {
             transform.position = Vector2.MoveTowards(transform.position, egg.position, speed * Time.deltaTime);
