@@ -262,7 +262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd930f88d91e60843960eaa0f6fe5f26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 200
   currentHealth: 0
   EggHealthBar: {fileID: 1188945857}
 --- !u!50 &30611726
@@ -534,7 +534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd930f88d91e60843960eaa0f6fe5f26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 200
   currentHealth: 0
   EggHealthBar: {fileID: 2049264707}
 --- !u!50 &63593583
@@ -1057,7 +1057,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd930f88d91e60843960eaa0f6fe5f26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 200
   currentHealth: 0
   EggHealthBar: {fileID: 1748076365}
 --- !u!50 &187902271
@@ -1372,7 +1372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd930f88d91e60843960eaa0f6fe5f26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 200
   currentHealth: 0
   EggHealthBar: {fileID: 1293300968}
 --- !u!50 &265546892
@@ -4085,7 +4085,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd930f88d91e60843960eaa0f6fe5f26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 200
   currentHealth: 0
   EggHealthBar: {fileID: 1168300481}
 --- !u!50 &936639002
@@ -4559,7 +4559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd930f88d91e60843960eaa0f6fe5f26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 200
   currentHealth: 0
   EggHealthBar: {fileID: 789539142}
 --- !u!50 &1073769197
@@ -5285,7 +5285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd930f88d91e60843960eaa0f6fe5f26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 200
   currentHealth: 0
   EggHealthBar: {fileID: 1730681458}
 --- !u!50 &1286314512
@@ -6053,7 +6053,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd930f88d91e60843960eaa0f6fe5f26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 200
   currentHealth: 0
   EggHealthBar: {fileID: 892810665}
 --- !u!50 &1450929599
@@ -8262,7 +8262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd930f88d91e60843960eaa0f6fe5f26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 200
   currentHealth: 0
   EggHealthBar: {fileID: 1821533169}
 --- !u!50 &1744555962
@@ -13802,7 +13802,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd930f88d91e60843960eaa0f6fe5f26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 200
   currentHealth: 0
   EggHealthBar: {fileID: 1445076154}
 --- !u!50 &1903573555
@@ -14202,7 +14202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd930f88d91e60843960eaa0f6fe5f26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 200
   currentHealth: 0
   EggHealthBar: {fileID: 1520443123}
 --- !u!50 &2000382604
@@ -15104,7 +15104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd930f88d91e60843960eaa0f6fe5f26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 200
   currentHealth: 0
   EggHealthBar: {fileID: 490840134}
 --- !u!50 &2140064109
@@ -15856,7 +15856,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd930f88d91e60843960eaa0f6fe5f26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 200
   currentHealth: 0
   EggHealthBar: {fileID: 5178259520485555372}
 --- !u!212 &5178259521666760726
