@@ -73,7 +73,7 @@ public class CAEnemyAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        /*
         if (Vector2.Distance(transform.position, egg.position) > stoppingDistance)
         {
             transform.position = Vector2.MoveTowards(transform.position, egg.position, speed * Time.deltaTime);
