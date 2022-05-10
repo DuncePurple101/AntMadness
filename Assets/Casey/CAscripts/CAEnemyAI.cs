@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CAEnemyAI : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class CAEnemyAI : MonoBehaviour
 
     public int maxHealth = 100;
     public int currentHealth;
+    int enemiesKilled;
 
     public CAEnemyHealthBar CAEnemyHealthBar;
 
@@ -48,12 +50,22 @@ public class CAEnemyAI : MonoBehaviour
         if(currentHealth <= 0)
         {
             Die();
+            //enemiesKilled++;
+            //if (enemiesKilled == 9)
+            //{
+            //    SceneManager.LoadScene("Win"); 
+            //}
         }
     }
 
     void Die()
     {
         Destroy(this.gameObject);
+        enemiesKilled++;
+        if (enemiesKilled == 9)
+        {
+            SceneManager.LoadScene("Win");
+        }
     }
 
     
