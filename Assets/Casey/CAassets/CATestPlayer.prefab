@@ -309,7 +309,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &3050245440341803789
@@ -389,6 +389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 599854b27b75d004ba9e2247f237b798, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 3050245440341803790}
   attackPoint: {fileID: 3050245440726149379}
   attackRange: 0.7
   enemyLayers:

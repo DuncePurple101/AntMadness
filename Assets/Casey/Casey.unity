@@ -2062,6 +2062,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1710425219}
   m_CullTransparentMesh: 0
+--- !u!95 &1816069895 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4811923518795976371, guid: 047d5811745cbf449a7590af8aea9b0f,
+    type: 3}
+  m_PrefabInstance: {fileID: 4811923518867840880}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1819067870
 GameObject:
   m_ObjectHideFlags: 0
@@ -2815,6 +2821,27 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3050245440341803784, guid: 7891d1c1f2a31f64296b08e96efc3427,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 4.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050245440341803784, guid: 7891d1c1f2a31f64296b08e96efc3427,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 3.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050245440341803784, guid: 7891d1c1f2a31f64296b08e96efc3427,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5869379471727653614, guid: 9e8514ce3f55d6d4eaf5629a613604af,
+        type: 3}
+    - target: {fileID: 3050245440341803784, guid: 7891d1c1f2a31f64296b08e96efc3427,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3050245440341803785, guid: 7891d1c1f2a31f64296b08e96efc3427,
         type: 3}
       propertyPath: m_Name
@@ -2874,6 +2901,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050245440341803789, guid: 7891d1c1f2a31f64296b08e96efc3427,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 4.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050245440341803789, guid: 7891d1c1f2a31f64296b08e96efc3427,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 3.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7891d1c1f2a31f64296b08e96efc3427, type: 3}
@@ -2968,6 +3005,27 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4811923518795976372, guid: 047d5811745cbf449a7590af8aea9b0f,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 5.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811923518795976372, guid: 047d5811745cbf449a7590af8aea9b0f,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 3.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811923518795976372, guid: 047d5811745cbf449a7590af8aea9b0f,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7012241801043319919, guid: 6f21ef4aa49c4ac46b5cc8061f1cd64d,
+        type: 3}
+    - target: {fileID: 4811923518795976372, guid: 047d5811745cbf449a7590af8aea9b0f,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4811923518795976373, guid: 047d5811745cbf449a7590af8aea9b0f,
         type: 3}
       propertyPath: m_RootOrder
@@ -3023,6 +3081,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4811923518795976377, guid: 047d5811745cbf449a7590af8aea9b0f,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1816069895}
     - target: {fileID: 4811923519849122145, guid: 047d5811745cbf449a7590af8aea9b0f,
         type: 3}
       propertyPath: m_AnchorMax.x
